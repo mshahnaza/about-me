@@ -1,0 +1,66 @@
+#inst {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+#my-photo {
+    vertical-align: middle;
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin: 30px 30px 30px 30px;
+}
+
+.floating-text {
+    font-size: 25px;
+    font-family: "DM Serif Display", serif;
+}
+
+#space {
+    margin-top: 90px;
+}
+
+#clear {
+    clear: both;
+}
+
+html {
+    background-color: #a6d5f0;
+}
+
+h1 {
+    color: rgb(63, 108, 255);
+    font-size: 20;
+    position: relative;
+    left: 310px;
+}
+
+h2 {
+    margin: auto;
+    color: rgb(63, 108, 255);
+    font-size: xx-large;
+}
+
+h3 {
+    margin: auto;
+    color: rgb(63, 108, 255);
+    font-size: xx-large;
+}
+
+.hover:hover {
+    color: rgb(63, 108, 255);
+    font-size: larger;
+}
+
+#inst-link {
+    color: dodgerblue;
+}
+.text {
+    font-size: 25px;
+}
+
+
+big {
+    font-size: 30px;
+}
