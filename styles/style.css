@@ -55,6 +55,7 @@ h3 {
 
 #inst-link {
     color: dodgerblue;
+    text-decoration: none;
 }
 .text {
     font-size: 25px;
