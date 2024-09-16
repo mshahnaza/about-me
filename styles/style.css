@@ -8,6 +8,15 @@ body {
     animation: backgroundFade 3s ease-in-out;
 }
 
+@keyframes backgroundFade {
+    0% {
+        background-color: #a6d5f0;
+    }
+    100% {
+        background-color: #e3f2fd;
+    }
+}
+
 h1, h2, h3 {
     color: #3f6cff;
     text-align: center;
@@ -31,6 +40,17 @@ h3 {
     animation: slideInFromRight 2s ease;
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 p {
     font-size: 20px;
     margin: 10px 20px;
@@ -41,6 +61,17 @@ p {
 }
 p.hover {
     color: black;
+}
+
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 p.hover:hover {
@@ -54,6 +85,14 @@ p.hover:hover {
     animation: floatIn 3s ease-in-out infinite;
 }
 
+@keyframes floatIn {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -111,4 +150,24 @@ ul li::before {
     content: "◦";
     padding-right: 10px;
     font-size: 20px;
+}
+
+@keyframes photoFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
